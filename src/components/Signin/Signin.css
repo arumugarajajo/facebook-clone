@@ -109,7 +109,7 @@
 }
 .password-icon {
   position: absolute;
-  top: 60%;
+  top: 42%;
   right: 15px;
   transform: translateY(-50%, -50%);
   cursor: pointer;

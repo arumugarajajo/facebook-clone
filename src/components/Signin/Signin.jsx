@@ -49,7 +49,7 @@ function Signin() {
               </div>
               <div className="passwordField">
                 <input
-                  type={showPassword ? "text" : "password"}
+                  type={!showPassword ? "text" : "password"}
                   placeholder="New password"
                   className="password"
                 />

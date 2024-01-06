@@ -32,7 +32,7 @@ function Login() {
             />
             <div className="password-wrapper">
               <input
-                type={showPassword ? "text" : "password"}
+                type={!showPassword ? "text" : "password"}
                 placeholder="Password"
                 className="password"
               />
