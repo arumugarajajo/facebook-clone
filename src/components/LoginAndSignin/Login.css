@@ -1,0 +1,151 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.login {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  gap: 40px;
+}
+.login .wrapper .leftPortion {
+  display: flex;
+  align-items: start;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.leftPortion h2 {
+  color: rgb(8, 102, 255);
+  font-size: 52px;
+  text-align: start;
+  padding-top: 30px;
+}
+.leftPortion p {
+  font-size: 24px;
+  text-align: left;
+  align-content: start;
+  margin-top: -30px;
+}
+
+/* right portion */
+.login .wrapper .rightPortion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+}
+.rightPortion .form {
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 0;
+  background-color: #fff;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  box-shadow: 1px lightgray;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+  padding: 10px;
+  padding-right: 30px;
+  margin: 5px;
+  width: 320px;
+  border-radius: 6px;
+  border: 0.3px solid lightgray;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.password-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.password {
+  padding-right: 30px;
+}
+
+.password-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px !important;
+  color: gray;
+}
+.password-icon:hover {
+  color: black;
+}
+
+.form .btn {
+  width: 100%;
+  background-color: rgb(8, 102, 255);
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.form .btn:hover {
+  background-color: rgb(33, 118, 237);
+}
+.form a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 380;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.form hr {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(236, 232, 232);
+}
+
+.form .create-btn {
+  background-color: #42b72a;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.form .create-btn:hover {
+  background-color: #40b728df;
+}
+
+.createAPage {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  width: 90%;
+  margin: 0px auto;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.createAPage .bold {
+  font-weight: bold;
+}
+.createAPage .bold:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

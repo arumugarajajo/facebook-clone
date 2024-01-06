@@ -1,0 +1,59 @@
+/* footer */
+
+.loginFooter {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.loginFooter .language {
+  margin: auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  background-color: #fff;
+}
+.loginFooter .language ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  justify-content: start;
+  align-items: center;
+  color: lightgray;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.language ul li a {
+  margin-right: 10px;
+  color: gray;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  justify-content: start;
+  align-items: start;
+}
+
+.language ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.language hr {
+  width: 92%;
+}
+.add {
+  font-size: 20px !important;
+  border-radius: 3px !important;
+  background-color: lightgray;
+  color: rgb(89, 84, 84);
+  cursor: pointer;
+}
+
+.add:hover {
+  color: black;
+  display: flex;
+  background-color: lightgray;
+}
